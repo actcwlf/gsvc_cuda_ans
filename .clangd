@@ -1,0 +1,15 @@
+
+CompileFlags:
+  Add: 
+    - --cuda-gpu-arch=sm_70 # 这里写你的 GPU 计算能力版本
+    - -DLIBRARY_IMPL
+  Remove:
+    - -rdc=true
+    - -gencode
+    - --expt-relaxed-constexpr
+    - --expt-extended-lambda
+    - -forward-unknown-to-host-compiler
+    - -W*
+    - --diag_suppress*
+    - --generate-code*
+

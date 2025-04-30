@@ -1,0 +1,9 @@
+.idea/
+.vscode/
+build/
+build2/
+CMakeFiles/
+.cache/
+dist/
+*.egg-info/
+_test_data/
